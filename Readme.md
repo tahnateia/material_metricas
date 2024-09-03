@@ -12,4 +12,4 @@
 
 | Aula                        | Link do Material        | Link do Vídeo |
 |-----------------------------|-------------------------|--------------
-| Acurácia                    | <a href="https://github.com/tahnateia/material_metricas/acuracia"> Material </a>   | https://www.youtube.com/@TahNaTeia |
+| Acurácia                    | <a href="https://github.com/tahnateia/material_metricas/tree/main/acuracia"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
