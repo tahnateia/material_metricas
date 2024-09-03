@@ -13,3 +13,10 @@
 | Aula                        | Link do Material        | Link do Vídeo |
 |-----------------------------|-------------------------|--------------
 | Acurácia                    | <a href="https://github.com/tahnateia/material_metricas/tree/main/acuracia"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
+| Auc                    | <a href="https://github.com/tahnateia/material_metricas/tree/main/auc"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
+| AP                    | <a href="https://github.com/tahnateia/material_metricas/tree/main/ap"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
+| Pontuação Brier                    | <a href="https://github.com/tahnateia/material_metricas/tree/main/brier_score"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
+| Classification Report                 | <a href="https://github.com/tahnateia/material_metricas/tree/main/classification_report"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
+
+
+
