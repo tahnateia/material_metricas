@@ -1,7 +1,7 @@
 <h1 align="center">
-<img src="https://img.shields.io/static/v1?label=Precisão%20Balanceada%20POR&message=TAH%20NA%20TEIA&color=7159c1&style=flat-square&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=Matriz%20De%20Confusao%20POR&message=TAH%20NA%20TEIA&color=7159c1&style=flat-square&logo=ghost"/>
 
-<h3> <p align="center">Balanced Accuracy Score - Precisão Balanceada </p> </h3>
+<h3> <p align="center">Matriz de Confusão </p> </h3>
 <h3> <p align="center"> ================= </p> </h3>
 
 >> <h3> Resumo </h3>

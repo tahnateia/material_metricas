@@ -6,18 +6,23 @@
 
 >> <h3> Resumo </h3>
 
-<p> Acurácia é uma métrica de avaliação muito popular para descobrir a performance de um modelo de machine learning em uma tarefa de classificação.
+<p>
+A Curva ROC (Receiver Operating Characteristic) é uma ferramenta essencial para avaliar a performance de um modelo de classificação, especialmente quando há desequilíbrio nas classes. A Curva ROC plota a Taxa de Verdadeiros Positivos (TPR) contra a Taxa de Falsos Positivos (FPR) em vários limiares de decisão.
 
-Costumo pensar nela como “taxa de acerto” do modelo.
+- **Taxa de Verdadeiros Positivos (TPR)**, também conhecida como sensibilidade, é a proporção de positivos reais que foram corretamente identificados como positivos pelo modelo.
+- **Taxa de Falsos Positivos (FPR)** é a proporção de negativos reais que foram incorretamente classificados como positivos.
 
-Ela é calculada dividindo o número de previsões corretas pelo número total de previsões.
+Ao traçar essas taxas para diferentes limiares de decisão, a Curva ROC oferece uma visão detalhada de como o modelo se comporta em diferentes cenários. Uma Curva ROC mais alta indica um modelo que tem uma melhor capacidade de distinguir entre as classes.
 
-Por exemplo, imagine que você treinou um modelo de machine learning para prever se uma pessoa tem uma doença ou não, com base em alguns sintomas.
+A métrica <strong>AUC</strong> (Área Sob a Curva) quantifica a performance do modelo com base na Curva ROC. A AUC é o valor da área sob a Curva ROC e varia de 0 a 1:
 
-Se o modelo faz 100 previsões e acerta 85 delas, sua acurácia é de 85%.
+- Um valor de AUC próximo de 1 indica um modelo excelente na separação das classes.
+- Um valor de AUC próximo de 0.5 sugere que o modelo não é melhor que uma escolha aleatória.
 
-Ela é muito popular porque é uma métrica fácil de entender, mas como todas as métricas, existem alguns cuidados que você deve tomar ao usá-la. </p>
+A AUC é uma métrica valiosa, pois fornece uma medida agregada da performance do modelo ao considerar todos os limiares possíveis, oferecendo uma visão clara da sua capacidade geral de discriminação.
+</p>
+
 
 >> <h3> Sobre a aula </h3>
 
-<p> Nesta aula você vai confrontar a métrica acuracia em um problema simples de classificação de risco de câncer de pulmão. Usaremos um dataset tratado e obtido do site Kaggle onde iremos testar se nossos dados estão balançeados ou não e iremos treinar um modelo de classificação, ao final, iremos testar a acurácia dele. </p>
+<p> Nesta aula você vai confrontar a métrica da CURVA ROC e da AUC em um problema simples de classificação de risco de colisão de asteroide. Usaremos um dataset tratado e obtido da NASA onde iremos testar se nossos dados estão balançeados ou não e iremos treinar um modelo de classificação, ao final, iremos testar a CURVA ROC dele. </p>

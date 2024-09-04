@@ -17,6 +17,8 @@
 | AP                    | <a href="https://github.com/tahnateia/material_metricas/tree/main/ap"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
 | Pontuação Brier                    | <a href="https://github.com/tahnateia/material_metricas/tree/main/brier_score"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
 | Classification Report                 | <a href="https://github.com/tahnateia/material_metricas/tree/main/classification_report"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
+| Precisão                 | <a href="https://github.com/tahnateia/material_metricas/tree/main/precision"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
 
+| Matriz de Confusão                 | <a href="https://github.com/tahnateia/material_metricas/tree/main/matriz_confusao"> Material </a>   | [Video](https://www.youtube.com/@TahNaTeia) |
 
 
