@@ -6,18 +6,16 @@
 
 >> <h3> Resumo </h3>
 
-<p> Acurácia é uma métrica de avaliação muito popular para descobrir a performance de um modelo de machine learning em uma tarefa de classificação.
+<p>Continuando nosso exemplo de um modelo de machine learning que tenta prever se uma pessoa tem ou não uma doença rara:
 
-Costumo pensar nela como “taxa de acerto” do modelo.
+O recall é o número de pessoas que o modelo identificou corretamente como tendo a doença dividido pelo número total de pessoas que realmente têm a doença nos seus dados.
 
-Ela é calculada dividindo o número de previsões corretas pelo número total de previsões.
+Ou seja, de todas as pessoas que ele poderia classificar como positivas, quantas ele acertou.
 
-Por exemplo, imagine que você treinou um modelo de machine learning para prever se uma pessoa tem uma doença ou não, com base em alguns sintomas.
+Por isso esta métrica também é conhecida como taxa de detecção: de todos os exemplos que o modelo poderia detectar, quantos ele realmente conseguiu.
 
-Se o modelo faz 100 previsões e acerta 85 delas, sua acurácia é de 85%.
-
-Ela é muito popular porque é uma métrica fácil de entender, mas como todas as métricas, existem alguns cuidados que você deve tomar ao usá-la. </p>
+No nosso exemplo numérico: se tínhamos 100 pessoas com a doença nos dados de avaliação e modelo identificou 60 delas corretamente, o recall é 60/100 = 60%. </p>
 
 >> <h3> Sobre a aula </h3>
 
-<p> Nesta aula você vai confrontar a métrica acuracia em um problema simples de classificação de risco de câncer de pulmão. Usaremos um dataset tratado e obtido do site Kaggle onde iremos testar se nossos dados estão balançeados ou não e iremos treinar um modelo de classificação, ao final, iremos testar a acurácia dele. </p>
+<p> Nesta aula você vai confrontar a métrica recall em um problema simples de classificação de perda de cliente. Usaremos um dataset tratado e obtido do site Kaggle onde iremos testar se nossos dados estão balançeados ou não e iremos treinar um modelo de classificação, ao final, iremos testar o recall dele. </p>
